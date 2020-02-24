@@ -10,7 +10,9 @@ and calculate difference between local and remote state
 it was implemented into a model and two services
 
 **Campaign** represent local model
+
 **AdSyncService** represent the main service implementation
+
 **ExternalAdService** represent a service that calls the external api
 
 **Assumptions :**
