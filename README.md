@@ -1,8 +1,8 @@
-**Introduction**
+# Introduction
 
 Repo to solve the ruby task provided by Heyjobs
 
-**Implementation**
+# Implementation
 
 In this task i was required to build a service object that calls external api
 and calculate difference between local and remote state
@@ -15,7 +15,7 @@ it was implemented into a model and two services
 
 **ExternalAdService** represent a service that calls the external api
 
-**Assumptions :**
+# Assumptions :
 
 * project doesn't expose api , just a service that could be called and the only way to make sure it works
 is through tests
@@ -25,12 +25,12 @@ is through tests
 * campaign status field of value active maps to enabled of remote and value disabled maps to paused
 * in case of api being down or external request could not success , it is the responsibility of the caller to decide what to do
 
-**Requirements :**
+# Requirements :
 
 * ruby 2.6.5
 * bundler >= 2
 
-**Run :**
+# Run :
 
 rake test
 
